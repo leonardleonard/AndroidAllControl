@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    style="@style/activitys">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <Button
+	        android:id="@+id/updown_dbyres"
+	        android:text="@string/updown_down"
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="1"/>
+	    <Button
+	        android:id="@+id/updown_dbydata"
+	        android:text="@string/updown_down"
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="1"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/updown_upimg"
+        android:text="@string/updown_upimg"
+        android:layout_width="160dp"
+    	android:layout_height="wrap_content"/>
+</LinearLayout>

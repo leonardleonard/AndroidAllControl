@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_lay"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    style="@style/activitys">
+    <Button
+        android:id="@+id/popup_top"
+        android:text="@string/popup_top"
+        android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"/>
+    <Button
+        android:id="@+id/popup_buttom"
+        android:text="@string/popup_buttom"
+    	android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:gravity="center"/>
+</RelativeLayout>

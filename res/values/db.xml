@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="par_createdb">创建数据库</string>
+    <string name="par_updatedb">更新数据库</string>
+    <string name="par_insert">增加记录</string>
+    <string name="par_update">更新记录</string>
+    <string name="par_select">查询记录</string>
+    <string name="sqli_ctable">创建表</string>
+    <string name="sqli_dtable">删除表</string>
+    <string name="sqli_insert">插入数据</string>
+    <string name="sqli_detele">删除数据</string>
+    <string name="sqli_update">更新数据</string>
+    <string name="sqli_query">查询数据</string>
+    <string name="sqli_queall">查询所有</string>
+    <string name="sqli_maxid">最大索引</string>
+    <string name="sqli_count">数据记录总数</string>
+</resources>

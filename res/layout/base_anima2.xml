@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    style="@style/activitys">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <Button
+	        android:id="@+id/anima_2drdc"
+	        android:text="@string/anima_drdc"
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="1"/>
+	    <Button
+	        android:id="@+id/anima_2sfxg"
+	        android:text="@string/anima_sfxg"
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <Button
+	        android:id="@+id/anima_2xzxg"
+	        android:text="@string/anima_xzxg"
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="1"/>
+	    <Button
+	        android:id="@+id/anima_2ydxg"
+	        android:text="@string/anima_ydxg"
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <Button
+	        android:id="@+id/anima_2hhdh"
+	        android:text="@string/anima_hhdh"
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="1"/>
+	    <Button
+	        android:id="@+id/anima_2lxdh"
+	        android:text="@string/anima_lxdh"
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="1"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/anima_2img"
+        android:src="@drawable/ico_logo"
+        android:layout_width="wrap_content"
+	   	android:layout_height="wrap_content"
+	   	android:layout_gravity="center_horizontal"
+	   	android:layout_marginTop="20dp"
+	   	android:contentDescription="@string/comm_image"/>
+</LinearLayout>

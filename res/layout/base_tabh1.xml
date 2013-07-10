@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabh_lay1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    style="@style/activitys">
+    <TabWidget
+        android:id="@android:id/tabs"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"/>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@android:id/tabcontent"
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:fadingEdge="none"
+        android:fadingEdgeLength="0dp">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:id="@+id/tabh_lay11"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="horizontal">
+		    <EditText
+		        android:inputType="text"
+		        android:layout_width="150dp"
+		    	android:layout_height="wrap_content"/>
+		    <Button
+		        android:text="@string/tabh_bd"
+		        android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"/>
+   		</LinearLayout>
+   		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:id="@+id/tabh_lay12"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical">
+		    <TextView
+		        android:text="@string/comm_please"
+		        android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"/>
+		    <RadioGroup
+		        android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:orientation="horizontal"
+		    	android:checkedButton="@+id/tabh_1nv">
+		        <RadioButton
+		            android:id="@+id/tabh_1nan"
+		            android:text="@string/tabh_nan"
+		            android:layout_width="wrap_content"
+		    		android:layout_height="wrap_content"/>
+		        <RadioButton
+		            android:id="@+id/tabh_1nv"
+		            android:text="@string/tabh_nv"
+		            android:layout_width="wrap_content"
+		    		android:layout_height="wrap_content"/>
+    		</RadioGroup>
+   		</LinearLayout>
+   		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:id="@+id/tabh_lay13"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical">
+        	<AnalogClock
+	            android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"/>
+   		</LinearLayout>
+    </FrameLayout>
+</LinearLayout>
+</TabHost>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    style="@style/activitys">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+        <Button
+	        android:id="@+id/fil_create"
+	        android:text="@string/fil_create"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="1"/>
+	    <Button
+	        android:id="@+id/fil_read"
+	        android:text="@string/fil_read"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/fil_res"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"/>
+</LinearLayout>

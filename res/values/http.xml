@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apache_struts">基于Struts2</string>
+    <string name="apache_simp">简单请求</string>
+    <string name="apache_comx">封装请求</string>
+    <string name="apache_entity">实体参数</string>
+    <string name="apache_json">请求JSON</string>
+    <string name="apache_ja">JSON数组</string>
+    <string name="apache_cookie">获取Cookie</string>
+    <string name="apache_ip">获取手机IP</string>
+    <string name="apache_servlet">基于Servlet</string>
+    <string name="updown_down">下载图片</string>
+    <string name="updown_upimg">上传图片</string>
+</resources>

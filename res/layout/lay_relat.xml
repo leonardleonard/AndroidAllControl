@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    style="@style/activitys">
+    <Button
+        android:id="@+id/relat_center"
+        android:text="@string/relat_center"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/relat_rb"
+        android:text="@string/relat_rb"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_toRightOf="@id/relat_center"
+    	android:layout_below="@id/relat_center"/>
+    <ImageButton
+        android:id="@+id/relat_next"
+        android:layout_below="@id/relat_rb"
+       	android:background="@drawable/ico_next"
+       	android:contentDescription="@string/comm_image"
+       	style="@style/imagebuttons"/>
+</RelativeLayout>

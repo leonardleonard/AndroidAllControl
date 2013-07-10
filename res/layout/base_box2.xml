@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    style="@style/activitys">
+    <CheckBox
+        android:text="@string/box_gel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:text="@string/box_bdu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/box_new"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/box_no"
+        android:text="@string/box_ev"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"/>
+    <CheckBox
+        android:id="@+id/box_ev"
+        android:text="@string/box_ev"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

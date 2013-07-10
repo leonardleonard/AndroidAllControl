@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="anima_item1">动画一</string>
+    <string name="anima_item2">动画二</string>
+    <string name="anima_item3">动画三</string>
+    <string name="anima_item4">动画四</string>
+    <string name="anima_item5">动画五</string>
+    <string name="anima_drdc">淡入淡出</string>
+    <string name="anima_sfxg">缩放效果</string>
+    <string name="anima_xzxg">旋转效果</string>
+    <string name="anima_ydxg">移动效果</string> 
+    <string name="anima_hhdh">混合动画</string>
+    <string name="anima_lxdh">连续动画</string>
+    <string name="anima_bjdh">布局动画</string>
+    <string name="anima_tjtp">添加图片</string>
+    <string name="anima_sctp">删除图片</string>
+    <string name="box_gel">www.google.cn</string>
+    <string name="box_bdu">www.baidu.com</string>
+    <string name="box_ev">复选框监听</string>
+    <string name="but_on">横向排列</string>
+    <string name="but_off">纵向排列</string>
+    <string name="but_clk">点击</string>
+    <string name="but_tou">触屏</string>
+    <string name="but_focu">焦点</string>
+    <string name="but_key">键盘</string>
+    <string name="but_img">按钮图文混排</string>
+    <string name="but_round">圆角按钮</string>
+    <string name="clock_start">开始</string>
+    <string name="clock_stop">停止</string>
+    <string name="clock_again">复位</string>
+    <string name="clock_format">格式化</string>
+    <string name="clock_please">选择日期</string>
+    <string name="clock_startt">开始时间</string>
+    <string name="clock_stopt">结束时间</string>
+    <string name="clock_cal">万年历</string>
+    <string name="clock_dia">日期对话框</string>
+    <string name="dia_yuan">圆形进度条</string>
+    <string name="dia_tiao">条形进度条</string>
+    <string name="dia_toastset">Toast设置</string>
+    <string name="dia_toastcus">自定义Toast</string>
+    <string name="dia_chgres">当前状态:在线</string>
+    <string name="dia_chg">修改状态</string>
+    <string name="dia_itme1">在线</string>
+    <string name="dia_itme2">离线</string>
+    <string name="dia_itme3">隐身</string>
+    <string name="dia_mstd">多级对话框</string>
+    <string name="dia_schs">单选对话框</string>
+    <string-array name="dia_stu">
+        <item>高中生</item>
+        <item>本科生</item>
+        <item>研究生</item>
+    </string-array>
+    <string name="dia_mchs">多选对话框</string>
+    <string name="dia_cus">自定义</string>
+    <string name="dia_user">Username</string>
+    <string name="dia_pwd">Password</string>
+    <string name="dia_date">日期对话框</string>
+    <string name="dia_time">时间对话框</string>
+    <string name="edit_tipc">颜色提醒文字</string>
+    <string name="edit_add">添加表情</string>
+    <string name="edit_dig">只能输入0123456</string>
+    <string name="edit_eml">输入Email</string>
+    <string name="edit_disable">不可编辑</string>
+    <string name="edit_mutil">多行文本域</string>
+    <string name="edit_money">金额：</string>
+    <string name="edit_blank">单击清空</string>
+    <string name="edit_pwd">单击显藏密码</string>
+    <string name="edit_focus">配置聚焦</string>
+    <string name="edit_focused">是否聚焦</string>
+    <string name="gal_item1">Galley一</string>
+    <string name="gal_item2">Galley二</string>
+    <string name="gal_item3">Galley三</string>
+    <string name="gal_item4">Galley四</string>
+    <string name="gal_item5">Galley五</string>
+    <string name="gal_item6">Galley六</string>
+    <string name="gal_item7">Galley七</string>
+    <string name="gal_item8">Galley八</string>
+    <string name="gal_tip">点击图片选定/取消</string>
+    <string name="list_item1">ListView一</string>
+    <string name="list_item2">ListView二</string>
+    <string name="list_item3">ListView三</string>
+    <string name="list_item4">ListView四</string>
+    <string name="list_item5">ListView五</string>
+    <string name="list_item6">ListView六</string>
+    <string name="list_item7">ListView七</string>
+    <string name="list_1title">关于我</string>
+    <string name="list_1msg">点击列表项试试</string>
+    <string name="list_2title">畅销书列表</string>
+    <string name="men_tip">按菜单键或PageUp</string>
+    <string name="popup_top">顶部</string>
+    <string name="popup_buttom">底部</string>
+    <string name="popup_hide">隐藏</string>
+    <string name="radio_nan">男</string>
+    <string name="radio_nv">女</string>
+    <string name="radio_no">无圆点</string>
+    <string name="radio_cus">自定义</string>
+    <string name="radio_res">默认选中:女</string>
+    <string-array name="spin_city">
+	    <item>北京</item>
+	    <item>上海</item>
+	    <item>香港</item>
+	    <item>广州</item>
+	    <item>深圳</item>
+	    <item>南京</item>
+	    <item>四川</item>
+	    <item>武汉</item>
+	</string-array>
+	<string-array name="spin_color">
+	    <item>粉色</item>
+	    <item>红色</item>
+	    <item>蓝色</item>
+	    <item>绿色</item>
+	    <item>红色</item>
+	</string-array>
+	<string-array name="spin_prvi">
+        <item>湖北省</item>
+        <item>广东省</item>
+        <item>北京市</item>
+        <item>上海市</item>
+    </string-array>
+    <string name="tabh_item1">TabHost一</string>
+    <string name="tabh_item2">TabHost二</string>
+    <string name="tabh_item3">TabHost三</string>
+    <string name="tabh_bd">百度一下</string>
+    <string name="tabh_nan">男</string>
+    <string name="tabh_nv">女</string>
+    <string name="tabh_cb1">篮球</string>
+    <string name="tabh_cb2">足球</string>
+    <string name="tabh_cb3">网球</string>
+    <string name="tabh_cb4">排球</string>
+    <string name="tabh_cb5">游泳(自由泳,蛙泳,仰泳)</string>
+    <string name="tabh_cb6">潜水(深海,湖泊)</string>
+    <string name="tabh_cb7">划船(竹筏,木船,汽艇)</string>
+    <string name="tabh_cb8">滑冰(速滑,花样)</string>
+    <string name="touch_msg">点击屏幕试试</string>
+    <string name="txt_call"><a href="tel:13669032128">联系我</a></string>
+    <string name="txt_baidu"><a href="http:www.baidu.com">www.baidu.com</a></string>
+    <string name="txt_run">跑马灯特效:路漫漫其修远兮,吾将上下而求索 上而求索 QQ:1138789752</string>
+    <string name="txt_autotip">输入ab自动填充</string>
+    <string name="txt_auto">单个填充</string>
+    <string name="txt_mauto">多个填充</string>
+    <string name="txt_split">截断字符串:吾将上下而求索</string>
+    <string name="txt_imgbg">图片背景文字居中</string>
+    <string name="txt_style">使用样式</string>
+    <string name="txt_format">文本格式转换</string>
+    <string name="txt_zoomres">文字缩放</string>
+</resources>

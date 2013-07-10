@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    style="@style/activitys">
+    <TableRow>
+        <ImageView
+            android:src="@drawable/icob_list4"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:scaleType="center"
+            android:contentDescription="@string/comm_image"/>
+        <TextView
+            android:id="@+id/list_5title"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:paddingLeft="5dp"
+        	android:gravity="center_vertical"
+        	android:textSize="15dp"/>
+        <TextView
+            android:id="@+id/list_5cont"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:paddingLeft="5dp"
+        	android:gravity="center_vertical"
+        	android:textSize="15dp"/>
+    </TableRow>
+</TableLayout>

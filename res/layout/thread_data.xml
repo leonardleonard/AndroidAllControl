@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    style="@style/activitys">
+    <Button
+        android:id="@+id/data_cm"
+        android:text="@string/data_cm"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/data_sys"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/data_cmres"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"/>
+</LinearLayout>

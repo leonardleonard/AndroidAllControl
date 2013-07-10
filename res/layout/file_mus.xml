@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    style="@style/activitys">
+    <Button
+        android:id="@+id/mus_start"
+        android:text="@string/mus_start"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"/>
+    <Button
+        android:id="@+id/mus_pause"
+        android:text="@string/mus_pause"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"/>
+    <Button
+        android:id="@+id/mus_end"
+        android:text="@string/mus_end"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"/>
+</LinearLayout>

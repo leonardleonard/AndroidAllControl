@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abs_msg">绝对布局从Android 2.2后被废弃</string>
+    <string name="comx_jh">计划</string>
+    <string name="comx_zh">帐号</string>
+    <string name="comx_yf">已发</string>
+    <string name="comx_tj">提交</string>
+    <string name="comx_name">开发者:上而求索</string>
+    <string name="comx_phone">联系电话:13669032128</string>
+    <string name="comx_qq">QQ:1138789752</string>
+    <string name="line_wei">权重设置</string>
+    <string name="line_loc">水平位置设置</string>
+    <string name="relat_center">居中按钮</string>
+    <string name="relat_rb">右下按钮</string>
+    <string name="relat_rbut">右下位置</string>
+    <string name="tab_szh">伸展居中</string>
+    <string name="tab_ss">收缩居中</string>
+    <string name="tab_yc">隐藏列</string>
+</resources>

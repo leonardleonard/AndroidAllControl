@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/activitys">
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/comx_layt"
+		android:layout_width="fill_parent"	
+		android:layout_height="40dp"
+		android:layout_alignParentTop="true"
+		android:orientation="horizontal"
+		android:gravity="bottom"
+		android:background="@drawable/icol_comx">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:id="@+id/comx_layjh"
+			android:layout_height="35dp"
+			android:layout_width="100dip"
+			android:orientation="horizontal"
+			android:background="@drawable/icol_comx">
+			<TextView
+			    android:id="@+id/comx_jh"
+			    android:text="@string/comx_jh" 
+			    android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+			    android:gravity="center"
+			    android:textSize="20dp"
+			    android:textColor="#000000"/>
+		</LinearLayout>
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:id="@+id/comx_layzh"
+			android:layout_height="35dp"
+			android:layout_width="100dip"
+			android:orientation="horizontal">
+			<TextView
+			    android:id="@+id/comx_zh"
+			    android:text="@string/comx_zh"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:gravity="center"
+				android:textSize="20dp"
+			    android:textColor="#00FF00"/>
+		</LinearLayout>
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:id="@+id/comx_layyf"
+			android:layout_height="35dp"
+			android:layout_width="100dip"
+			android:orientation="horizontal">
+			<TextView
+			    android:id="@+id/comx_yf"
+			    android:text="@string/comx_yf"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:gravity="center"
+				android:textSize="20dp"
+			    android:textColor="#00FF00"/>
+		</LinearLayout>
+	</LinearLayout>
+	<Button
+	    android:id="@+id/comx_tj"
+		android:text="@string/comx_tj"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"/>
+	<LinearLayout
+	    android:id="@+id/comx_layc" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_below="@id/comx_layt"
+		android:layout_above="@id/comx_tj"
+		android:orientation="vertical">
+	</LinearLayout>
+</RelativeLayout>

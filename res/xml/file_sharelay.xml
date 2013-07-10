@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory android:title="同步设置">
+	<CheckBoxPreference
+		android:key="sharelay_cb"
+		android:title="是否同步"
+		android:summaryOn="开启"
+		android:summaryOff="关闭"
+		android:defaultValue="false"/>
+	<EditTextPreference
+		android:key="sharelay_et"
+		android:title="设置同步地址"
+		android:summary="比如:http://www.baidu.com/"
+		android:dialogTitle="设置同步地址"
+		android:defaultValue="http://"
+		android:dependency="sharelay_cb"/>
+	<ListPreference
+	   	android:key="sharelay_list"
+	   	android:title="同步时间间隔"
+	   	android:summary="多久时间同步一次"
+	   	android:dialogTitle="请选择同步间隔时间"
+	   	android:entries="@array/sharelay_time"
+	   	android:entryValues="@array/sharelay_value"
+	   	android:defaultValue="60"
+	   	android:dependency="sharelay_cb"/>
+</PreferenceCategory>
+</PreferenceScreen>

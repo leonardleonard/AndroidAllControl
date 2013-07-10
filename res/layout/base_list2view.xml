@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    style="@style/activitys">
+    <ImageView
+        android:id="@+id/list_2bkico"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:contentDescription="@string/comm_image"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="100dp"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:gravity="left"
+    	style="@style/activitys">
+        <TextView
+            android:id="@+id/list_2bktitle"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:padding="3dp"
+        	android:textSize="10dp"/>
+        <TextView
+            android:id="@+id/list_2bkauth"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:padding="3dp"
+        	android:textSize="10dp"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="200dp"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:gravity="left">
+        <TextView
+            android:id="@+id/list_2bktype"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:padding="3dp"
+        	android:textSize="10dp"/>
+        <ImageView
+            android:id="@+id/list_2bkscore"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:padding="3dp"
+        	android:contentDescription="@string/comm_image"/>
+    </LinearLayout>
+</LinearLayout>

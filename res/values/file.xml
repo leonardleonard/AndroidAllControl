@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fil_create">创建应用文件</string>
+    <string name="fil_read">读取应用文件</string>
+    <string name="json_simp">简单创建JSON</string>
+    <string name="json_comx">复杂创建JSON</string>
+    <string name="json_prase">解析JSON数组</string>
+    <string name="lok_no">无数据</string>
+    <string name="mus_start">播放</string>
+    <string name="mus_pause">暂停</string>
+    <string name="mus_end">结束</string>
+    <string name="prop_url">连接后台</string>
+    <string name="prop_home">应用目录</string>
+    <string name="prop_bg">背景色</string>
+    <string name="prop_bgtip">单击此处设置背景色</string>
+    <string name="prop_mdef">默认模式</string>
+    <string name="prop_mtree">树状模式</string>
+    <string name="prop_show">是否显示欢迎对话框</string>
+    <string name="raw_read">读取RAW文件</string>
+    <string name="sd_create">创建本地文件</string>
+    <string name="sd_read">读取本地文件</string>
+    <string name="share_create">创建共享文件</string>
+    <string name="share_read">读取共享文件</string>
+   	<string-array name="sharelay_time">
+		<item>1分钟</item>
+		<item>1小时</item>
+		<item>2小时</item>
+		<item>4小时</item>
+		<item>9小时</item>
+		<item>12小时</item>
+	</string-array>
+	<string-array name="sharelay_value">
+		<item>1</item>
+		<item>60</item>
+		<item>120</item>
+		<item>240</item>
+		<item>540</item>
+		<item>720</item>
+	</string-array>
+	<string name="xml_msg">XML创建与解析</string>
+	<string name="xml_dcreate">Dom创建</string>
+    <string name="xml_dread">Dom解析</string>
+    <string name="xml_dread2">Dom解析</string>
+    <string name="xml_saxread">Sax解析</string>
+    <string name="xml_pullread">Pull解析</string>
+</resources>

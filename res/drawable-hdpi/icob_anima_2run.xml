@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:drawable="@drawable/icob_gal01" android:duration="500"/>
+    <item android:drawable="@drawable/icob_gal02" android:duration="500"/>
+    <item android:drawable="@drawable/icob_gal03" android:duration="500"/>
+    <item android:drawable="@drawable/icob_gal04" android:duration="500"/>
+    <item android:drawable="@drawable/icob_gal05" android:duration="500"/>
+    <item android:drawable="@drawable/icob_gal06" android:duration="500"/>
+    <item android:drawable="@drawable/icob_gal07" android:duration="500"/>
+    <item android:drawable="@drawable/icob_gal08" android:duration="500"/>
+    <item android:drawable="@drawable/icob_gal09" android:duration="500"/>
+    <item android:drawable="@drawable/icob_gal10" android:duration="500"/>
+    <item android:drawable="@drawable/icob_gal11" android:duration="500"/>
+    <item android:drawable="@drawable/icob_gal12" android:duration="500"/>
+</animation-list>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	style="@style/activitys">
+	<TextView
+        android:text="@string/abs_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="10dp"/>
+    <ImageView
+        android:src="@drawable/icol_abs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="30dp"
+        android:contentDescription="@string/comm_image"/>
+</AbsoluteLayout>

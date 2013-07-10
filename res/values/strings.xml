@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--应用-->
+    <string name="app_name">安卓宝典</string>
+    <string name="app_whello">欢迎你</string>
+    <string name="app_mbase">基本组件</string>
+    <string name="app_mlay">视图布局</string>
+    <string name="app_mfile">文件操作</string>
+    <string name="app_mdb">数据库</string>
+    <string name="app_mthread">多线程与跳转</string>
+    <string name="app_msys">系统服务</string>
+    <string name="app_mhttp">网络</string>
+    <string name="app_mcopy">上而求索 版权所有</string>
+    <string name="app_odesc">
+安卓宝典是一款用于学习安卓应用开发的优秀应用，具有使用简单、结构明晰、综合、易于学习与研究、免费与开源的特点。欢迎你使用!\n
+如果你觉得安卓宝典对你的学习与工作上有一定的作用，敬请赞助为之付出努力的开发者。若有你们热心的赞助与支持，开发者会更有信心与条件不断地对安卓宝典这款应用进行升级与更新，并为你提供安卓应用开发等方面的技术支持与技术探讨。\n
+谢谢你的关注与支持!\n\n
+***应用名:安卓宝典\n
+***应用当前版本号:v2.3\n
+***支持系统:安卓系统v2.3以上\n
+***发布时间:2013/3/3\n
+***介绍说明:http://blog.csdn.net/lmc1138789752/article/details/8567897\n
+***各版本APK安装包下载地址:http://blog.csdn.net/lmc1138789752/article/details/8567897\n
+***各版本源代码下载地址:http://blog.csdn.net/lmc1138789752/article/details/8567897\n
+***敬请赞助开发者!
+	</string>
+	<string name="app_oset">设置</string>
+	<string name="app_ohelp">赞助</string>
+	<string name="app_htitle">赞助开发者</string>
+	<string name="app_habout">关于安卓宝典</string>
+	<string name="app_hzcont">
+***支付宝账户:1138789752lmc@sina.com\n
+***农行网银账户:6228481621240744914\n
+***敬请赞助开发者!
+	</string>
+	<string name="app_htip">联系开发者</string>
+	<string name="app_htcont">
+***开发者:上而求索\n
+***手机号:13669032128\n
+***腾讯QQ:1138789752\n
+***新浪邮箱:1138789752lmc@sina.com\n
+***CSDN博客:http://blog.csdn.net/lmc1138789752/\n
+***搜索引擎中输入关键字“安卓宝典”或“lmc1138789752 csdn博客”进行搜索，可进入下载网站下载最新apk安装包、下载最新源代码及访问开发者博客
+	</string>
+	<!--通用-->
+	<string name="comm_please">请选择</string>
+	<string name="comm_submit">提交</string>
+	<string name="comm_confirm">确定</string>
+	<string name="comm_cancel">取消</string>
+    <string name="comm_image">图片描述</string>
+    <!--基本组件 -->
+    <string name="base_textview">TextView</string>
+    <string name="base_edittext">EditText</string>
+    <string name="base_button">Button</string>
+    <string name="base_radio">Radio</string>
+    <string name="base_checkbox">CheckBox</string>
+    <string name="base_dialog">Dialog</string>
+    <string name="base_listview">ListView</string>
+    <string name="base_clock">Clock</string>
+    <string name="base_spinner">Spinner</string>
+    <string name="base_seekbar">SeekBar</string>
+    <string name="base_tabhost">TabHost</string>
+    <string name="base_popup">Popup</string>
+    <string name="base_menu">Menu</string>
+    <string name="base_galley">Gallery</string>
+    <string name="base_view">View</string>
+    <string name="base_color">Color</string>
+    <string name="base_widget">Widget</string>
+    <string name="base_animation">Animation</string>
+    <string name="base_touch">Touch</string>
+    <!--视图布局 -->
+    <string name="lay_line">线性布局</string>
+    <string name="lay_frame">框架布局</string>
+    <string name="lay_relat">相对布局</string>
+    <string name="lay_tab">表格布局</string>
+    <string name="lay_abs">绝对布局</string>
+    <string name="lay_comx">复杂布局</string>
+    <!--文件操作-->
+    <string name="file_prop">属性文件</string>
+    <string name="file_share">共享文件</string>
+    <string name="file_sharelay">共享布局</string>
+    <string name="file_raw">RAW</string>
+    <string name="file_fil">应用文件</string>
+    <string name="file_sd">本地文件</string>
+    <string name="file_xml">XML</string>
+    <string name="file_json">JSON</string>
+    <string name="file_lok">浏览文件</string>
+    <string name="file_mus">MP3播放</string>
+    <string name="file_oper">文件操作</string>
+    <!--数据库-->
+    <string name="db_sqli">SQLite</string>
+    <string name="db_par">继承实现</string>
+    <!--多线程与跳转-->
+    <string name="thread_data">数据共享</string>
+    <string name="thread_nhd">霓虹灯</string>
+    <string name="thread_ball">滚动小球</string>
+    <string name="thread_ajax">异步下载</string>
+    <string name="thread_ajchk">异步验证</string>
+    <string name="thread_jump">程序跳转</string>
+    <string name="thread_fjxc">附加线程</string>
+    <string name="thread_mgr">性能管理</string>
+    <!--系统服务-->
+    <string name="sys_chgbg">更改背景</string>
+    <string name="sys_hsqp">横竖切屏</string>
+    <string name="sys_xtcx">系统程序</string>
+    <string name="sys_apk">安装卸载</string>
+    <string name="sys_bdcast">广播机制</string>
+    <string name="sys_serv">应用服务</string>
+    <!--网络-->
+    <string name="http_apache">Apache</string>
+    <string name="http_updown">上传下载</string>
+    <string name="http_net">Net接口</string>
+</resources>

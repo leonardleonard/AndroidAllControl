@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    style="@style/activitys">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:orientation="horizontal"
+	    android:gravity="center_horizontal">
+	    <TextView
+	        android:text="@string/ajchk_user"
+	        android:layout_width="70dp"
+	        android:layout_height="wrap_content"
+	        android:gravity="right"/>
+	    <EditText
+	        android:id="@+id/ajchk_user"
+	        android:inputType="text"
+	        android:layout_width="160dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:gravity="center_horizontal">
+	    <TextView
+	        android:text="@string/ajchk_pwd"
+	        android:layout_width="70dp"
+	        android:layout_height="wrap_content"
+	        android:gravity="right"/>
+	    <EditText
+	        android:id="@+id/ajchk_pwd"
+	        android:inputType="textPassword"
+	        android:layout_width="160dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/ajchk_enter"
+        android:text="@string/ajchk_enter"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

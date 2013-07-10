@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#66FF33">
+    <TextView
+        android:text="@string/comm_please"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dp"/>
+    <RadioGroup
+        android:id="@+id/dia_choose"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+        <RadioButton
+            android:text="@string/dia_itme1"
+            android:layout_marginLeft="20dp"/>
+        <RadioButton
+            android:text="@string/dia_itme2"
+            android:layout_marginLeft="20dp"/>
+        <RadioButton
+            android:text="@string/dia_itme3"
+            android:layout_marginLeft="20dp"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/dia_cancel"
+        android:text="@string/comm_cancel"
+        android:layout_width="80dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal|bottom"/>
+</LinearLayout>

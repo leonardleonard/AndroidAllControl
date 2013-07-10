@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    style="@style/activitys">
+    <TextView
+        android:id="@+id/hsqp_msg"
+        android:text="@string/hsqp_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_gravity="top"
+        android:gravity="center_horizontal"/>
+    <ImageView
+        android:id="@+id/hsqp_ico"
+        android:src="@drawable/icos_hsqp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/comm_image"/>
+    <Button
+        android:id="@+id/hsqp_qp"
+        android:text="@string/hsqp_qp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"/>
+</FrameLayout>

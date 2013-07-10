@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relat_lay2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/activitys">
+    <ImageView
+        android:id="@+id/relat_ltop"
+        android:src="@drawable/icol_relat1"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:contentDescription="@string/comm_image"/>
+    <ImageView
+        android:id="@+id/relat_right"
+        android:src="@drawable/icol_relat2"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_toRightOf="@id/relat_ltop"
+    	android:contentDescription="@string/comm_image"/>
+    <TextView
+        android:text="@string/relat_rbut"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_toRightOf="@id/relat_ltop"
+    	android:layout_below="@id/relat_right"/>
+</RelativeLayout>

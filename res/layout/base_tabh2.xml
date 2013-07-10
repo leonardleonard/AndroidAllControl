@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    style="@style/activitys">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tabh_lay21"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="horizontal">
+	    <EditText
+	        android:inputType="text"
+	        android:layout_width="150dp"
+	    	android:layout_height="wrap_content"/>
+	    <Button
+	        android:text="@string/tabh_bd"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tabh_lay22"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical">
+	    <TextView
+	        android:text="@string/comm_please"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+	    <RadioGroup
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	    	android:checkedButton="@+id/tabh_2nv">
+	        <RadioButton
+	            android:id="@+id/tabh_2nan"
+	            android:text="@string/tabh_nan"
+	            android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"/>
+	        <RadioButton
+	            android:id="@+id/tabh_2nv"
+	            android:text="@string/tabh_nv"
+	            android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"/>
+	    </RadioGroup>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tabh_lay23"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical">
+        <AnalogClock
+            android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

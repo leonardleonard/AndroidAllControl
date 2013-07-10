@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:layout_width="fill_parent"
+   	android:layout_height="wrap_content"
+   	android:padding="8dp"
+   	android:orientation="vertical"
+   	style="@style/activitys">
+   	<TextView
+   	    android:text="@string/app_habout"
+   	    style="@style/textviews"/>
+   	<TextView
+   	    android:text="@string/app_odesc"
+   	    style="@style/hcont"/>
+   	<TextView
+   	    android:text="@string/app_htitle"
+   	    style="@style/textviews"/>
+   	<TextView
+   	    android:text="@string/app_hzcont"
+   	    style="@style/hcont"/>
+   	<TextView
+   	    android:text="@string/app_htip"
+   	    style="@style/textviews"/>
+   	<TextView
+   	    android:id="@+id/app_htcont"
+   	    android:text="@string/app_htcont"
+   	    style="@style/hcont"/>
+</LinearLayout>
+</ScrollView>

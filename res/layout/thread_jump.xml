@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    style="@style/activitys">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <Button
+	        android:id="@+id/jump_sing"
+	        android:text="@string/jump_sing"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"/>
+	    <Button
+	        android:id="@+id/jump_doub"
+	        android:text="@string/jump_doub"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/jump_dia"
+        android:text="@string/jump_dia"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/jump_res"
+        android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+</LinearLayout>

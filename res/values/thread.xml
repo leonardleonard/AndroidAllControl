@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ajax_down">下 载</string>
+    <string name="ajchk_user">用户名</string>
+    <string name="ajchk_pwd">密码</string>
+    <string name="ajchk_enter">登 录</string>
+    <string name="data_cm">采用剪切板传参</string>
+    <string name="data_cmret">向剪切板中写入对象并返回</string>
+    <string name="fjxc_start">开始</string>
+    <string name="fjxc_end">结束</string>
+    <string name="jump_sing">单选跳转</string>
+    <string name="jump_doub">双向跳转</string>
+    <string name="jump_return">双向跳转返回</string>
+    <string name="jump_dia">对话框跳转</string>
+    <string name="jump_diaret">对话框跳转返回</string>
+    <string name="mgr_msg">
+安卓宝典包含了近百个Activity类/界面,性能管理和优化甚是麻烦，修改调试很久了，由此性能管理就以本应用举例说明，若有不足，敬请谅解。\n\n
+安卓宝典采用默认模式(也即线性结构)和树状模式两种首页展示方式实现功能界面管理，可在设置菜单进行设置。由于lmc.lonely.Mian(默认模式首页)，
+lmc.lonely.file.FProp(设置/属性文件)，lmc.lonely.base.BListView0和lmc.lonely.base.BListView6(树状模式首页)
+四个Activity类相互间跳转等操作会消耗过多的资源外，其他Activity类因无退出应用操作而只能返回到默认模式首页中以退出应用，这样就利用了安卓应用
+生命周期而完成性能管理和优化。\n\n
+Mian，FProp，BListView0和BListView6这四个了由继承了android.app.Application的lmc.lonely.AppMgr(需在AndroidManifest.xml
+中配置AppMgr类)进行管理。当通过Mian和BListView6跳转到FProp完成应用设置后，FProp会执行AppMgr.finish()并重启应用。当以Mian->
+BListView0->BListView6顺序进入到树状模式首页，并点击该界面中“返回默认模式”时，BListView6类中执行AppMgr.finish()并跳转到默认模式首页。\n\n
+以下日志截图
+    </string>
+</resources>

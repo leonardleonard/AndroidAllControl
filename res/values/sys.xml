@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apk_install">安装APK</string>
+    <string name="apk_uninstall">卸载APK</string>
+    <string name="bdcast_set">注册广播</string>
+    <string name="bdcast_unset">取消注册</string>
+    <string name="bdcast_bd">广播一下</string>
+    <string name="chgbg_bg">长按下图设置为系统背景</string>
+    <string name="hsqp_msg">当前为竖屏</string>
+    <string name="hsqp_qp">切屏</string>
+    <string name="serv_start">启动服务</string>
+    <string name="serv_end">停止服务</string>
+    <string name="xtcx_bd">百度一下</string>
+    <string name="xtcx_jjbh">间接拨号</string>
+    <string name="xtcx_zjbh">直接拨号</string>
+    <string name="xtcx_dx">发送短信</string>
+    <string name="xtcx_cx">发送彩信</string>
+    <string name="xtcx_yjno">无附件发送邮件</string>
+    <string name="xtcx_yjyes">有附件发送邮件</string>
+    <string name="xtcx_yjmul">多附件发送邮件</string>
+    <string name="xtcx_tpll">图片浏览</string>
+</resources>
